@@ -26,12 +26,13 @@ class Employees extends Component {
                                 {this.state.Results.map(result => {
                                     return (
                                         <ResultList key = {result.email}>
-                                            <th>{result.name.first}</th>
-                                            <th>{result.name.last}</th>
-                                            <th>{result.email}</th>
-                                            <th>{result.phone}</th>
-                                            <th>{result.cell}</th>
-                                            <th>{result.dob.age}</th>
+                                            <td>{result.name.first}</td>
+                                            <td>{result.name.last}</td>
+                                            <td>{result.location.city}</td>
+                                            <td>{result.email}</td>
+                                            <td>{result.phone}</td>
+                                            <td>{result.cell}</td>
+                                            <td>{result.dob.age}</td>
                                         </ResultList>
                                     );
                                 })}
