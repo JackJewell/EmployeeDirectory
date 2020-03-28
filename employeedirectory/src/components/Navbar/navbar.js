@@ -7,9 +7,6 @@ function Navbar() {
       <div className="navbar-brand">
         Employee Directory
       </div>
-      <div>
-        
-      </div>
     </nav>
   );
 }
